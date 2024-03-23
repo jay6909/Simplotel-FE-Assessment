@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Assessment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar" id="navBar">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">Order</a>
+  <a href="#contact">Food</a>
+  <a href="#about">Restaurant</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contactus">Contact Us</a>
+
+
+  <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+    <div> <img width="25px" src="./assets/menu-bar.png" alt="" srcset=""></div>
+  </a>
+</div>
+<div class="section-container roboto-regular">
+  <div class="section-child">
+    <div id="landing-main-text-block-container">
+      <div>
+        <h1>LOREM IPSUM</h1>
+      </div>
+      <div>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam cumque corporis fuga expedita
+          cupiditate. Eum officiis neque vero esse corrupti minima, voluptatem incidunt veniam odio ipsam voluptas in
+          dolor ex.
+        </p>
+
+      </div>
+      <div id="landing-main-text-block-button-container">
+        <button>Click Me</button>
+      </div>
+    </div>
+  </div>
+  <div  class="section-child">
+    <div id="landing-main-image-parent">
+      <img id="landing-main-image" src="./assets/pexels-robin-stickel-70497.jpg" alt="">
+
+       </div>
+  </div>
+</div>
+<div class="section-container roboto-regular">
+ <div class="section-child">
+    <div id="grid-image-parent">
+      <div style="width: 50%; gap: 1rem; display: flex; flex-direction: column;"> 
+        <div id="grid-image-1" class="grid-image-container">
+          <img  src="./assets/pexels-rachel-claire-6752433.jpg" alt="">
+        </div>
+        <div id="grid-image-2" class="grid-image-container">
+          <img src="./assets//pexels-eva-bronzini-6141651.jpg" alt="">
+        </div>
+      </div>
+      <div style="width: 50%;" id="grid-image-3" class="grid-image-container">
+        <img src="./assets/pexels-mister-mister-3434523.jpg" alt="">
+
+      </div>
+    </div>
+ </div>
+ <div class="section-child" id="section-child-grid-image-text-container">
+  <div id="grid-image-text-block">
+    <div>
+      <div >LOREM IPSUM</div>
+    </div>
+    <div style="text-wrap: wrap;">
+      <div style="font-size: 2.6rem; letter-spacing: 0.2rem;" class="roboto-bold">LOREM IPSUM SET ADEMIR</div>
+    </div>
+    <div id="click-container">
+      <div>
+        Click
+      </div>
+      <div style="display: flex;">
+        <img src="./assets/icons8-arrow-30.png" alt="">
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
